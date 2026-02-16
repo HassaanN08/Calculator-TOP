@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer {
+    height: 20px;
+}
+
+.container {
+    width: 33.3%;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display {
+    min-height: 80px;
+}
+
+.display input:focus {
+    border: none;
+    outline: none;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+    width: 100%
+}
+
+.numbers .button-0 {
+    grid-column: span 3;
+}
+
+.top-input {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bottom-input {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.bottom-input .clear {
+    width: 100%
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+body button {
+    height: 40px;
+    min-width: 40px;
+}
