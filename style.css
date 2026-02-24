@@ -7,6 +7,8 @@ body {
 
 .answer {
     height: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
 }
 
 .container {
@@ -18,6 +20,7 @@ body {
 
 .display {
     min-height: 80px;
+    margin-bottom: 20px;
 }
 
 .display input:focus {
@@ -68,4 +71,16 @@ body {
 body button {
     height: 40px;
     min-width: 40px;
+}
+
+.input {
+    width: 100%; 
+    height: 40px; 
+    border: none; 
+    background-color: whitesmoke; 
+    display: flex; 
+    align-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    scrollbar-width: none;
 }
